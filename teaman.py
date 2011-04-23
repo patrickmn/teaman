@@ -5,7 +5,7 @@
   Simple tea timer
 
   by Patrick Mylund Nielsen
-  http://github.com/pmylund/teaman
+  https://github.com/pmylund/teaman
 
 """
 
