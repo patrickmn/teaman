@@ -2,7 +2,7 @@
 """
   Teaman
 
-  Simple tea timer
+  Simple console app that alerts you (with sound) when your cup of tea is ready.
 
   by Patrick Mylund Nielsen
   https://github.com/pmylund/teaman
