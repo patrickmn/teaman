@@ -6,10 +6,9 @@
 
   by Patrick Mylund Nielsen
   https://github.com/pmylund/teaman
-
 """
 
-__version__ == '1.0'
+__version__ = '1.0'
 
 import sys
 import time
