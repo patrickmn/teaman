@@ -5,7 +5,7 @@
   Simple tea timer
 
   by Patrick Mylund Nielsen
-  http://patrickmylund.com
+  http://github.com/pmylund/teaman
 
 """
 
@@ -16,6 +16,7 @@ import time
 
 import util
 
+# Linux and Windows only
 play_ready_sound = True
 ready_sound_file = 'ready.wav'
 
