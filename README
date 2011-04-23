@@ -5,4 +5,4 @@ That's pretty much it.
 
 Usage:
   - python teaman.py
-  - python teaman.py <duration in seconds>
+  - python teaman.py <duration in seconds, e.g. 300>
