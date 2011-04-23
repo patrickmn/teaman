@@ -1,0 +1,8 @@
+Teaman is a really simple console/text-based tea timer that alerts you
+when your cup of tea is ready.
+
+That's pretty much it.
+
+Usage:
+  - python teaman.py
+  - python teaman.py <duration in seconds>
