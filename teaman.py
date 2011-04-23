@@ -12,6 +12,7 @@ __version__ = '1.0'
 
 import sys
 import time
+import datetime
 
 import util
 
@@ -37,7 +38,7 @@ def main():
         pass
 
 def countdownToTea(duration):
-    print "\r\nYour tea will be ready at %s." % time.strftime('%X', time.gmtime(time.time() + duration))
+    print "\r\nYour tea will be ready at %s." % (datetime.datetime.now() + datetime.timedelta(seconds=duration)).strftime('%X')
     time.sleep(duration)
     print("\r\nYour tea is ready!")
     if play_ready_sound:
