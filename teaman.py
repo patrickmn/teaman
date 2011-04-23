@@ -46,14 +46,14 @@ def countdownToTea(duration):
             util.playSound(ready_sound_file)
         except:
             pass
-    input = raw_input("\r\nHaving another cup? (Y/N/secs) ").lower()
-    if input == 'y' or not input:
+    answer = raw_input("\r\nHaving another cup? (Y/N/secs) ").lower()
+    if answer == 'y' or not answer:
         countdownToTea(duration)
-    elif input == 'n':
+    elif answer == 'n':
         pass
     else:
         try:
-            duration = int(input)
+            duration = int(answer)
         except:
             pass
         else:
