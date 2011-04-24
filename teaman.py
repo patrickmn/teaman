@@ -35,7 +35,7 @@ def main():
     try:
         countdownToTea(duration)
     except KeyboardInterrupt:
-        pass
+        return
 
 def countdownToTea(duration):
     print "\r\nYour tea will be ready at %s." % (datetime.datetime.now() + datetime.timedelta(seconds=duration)).strftime('%X')
