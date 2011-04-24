@@ -48,7 +48,7 @@ def countdownToTea(duration):
     if answer == 'y' or not answer:
         countdownToTea(duration)
     elif answer == 'n':
-        pass
+        return
     else:
         try:
             duration = int(answer)
