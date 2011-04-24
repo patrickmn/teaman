@@ -41,7 +41,7 @@ def countdownToTea(duration):
     print("\r\nYour tea is ready!")
     if play_ready_sound:
         try:
-            util.playSound(ready_sound_file)
+            playSound(ready_sound_file)
         except:
             pass
     answer = raw_input("\r\nHaving another cup? (Y/N/secs) ").lower()
