@@ -71,7 +71,7 @@ def playSound(sound_file):
         from wave import open as waveOpen
         from ossaudiodev import open as ossOpen
         s = waveOpen(sound_file, 'rb')
-        (nc, sw, fr, nf, comptype, compname) = s.getparams( )
+        (nc, sw, fr, nf, comptype, compname) = s.getparams()
         dsp = ossOpen('/dev/dsp', 'w')
         try:
             from ossaudiodev import AFMT_S16_NE
