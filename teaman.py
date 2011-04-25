@@ -38,7 +38,7 @@ def main():
 def countdownToTea(duration):
     print "\r\nYour tea will be ready at %s." % (datetime.datetime.now() + datetime.timedelta(seconds=duration)).strftime('%X')
     time.sleep(duration)
-    print("\r\nYour tea is ready!")
+    print "\r\nYour tea is ready!"
     if play_ready_sound:
         try:
             playSound(ready_sound_file)
